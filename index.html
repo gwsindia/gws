@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Web Solutions | Web Development & Digital Marketing Agency</title>
+    <title>Global Web Solutions | Premier Web Development & Digital Marketing Agency</title>
     <meta name="description" content="15 years of excellence in web development and digital marketing services. Your trusted partner for online success.">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header/Navigation -->
+    <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="logo">
-                <a href="index.html">Global Web Solutions</a>
-                <span class="tagline">15 Years of Digital Excellence</span>
+                <img src="images/logo.png" alt="Global Web Solutions Logo">
+                <span>15 Years of Excellence</span>
             </div>
             <nav class="navbar">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#portfolio">Work</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" class="cta-link">Contact</a></li>
                 </ul>
             </nav>
             <div class="mobile-menu-btn">
@@ -35,94 +38,98 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Building Digital Experiences Since 2009</h1>
-                <p>Your trusted partner for web development and digital marketing solutions that drive results.</p>
+                <h1>Transform Your Digital Presence</h1>
+                <p class="subtitle">We craft exceptional web solutions and digital strategies that drive growth for your business</p>
                 <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
-                    <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+                    <a href="#contact" class="btn btn-primary">Get Free Consultation</a>
+                    <a href="#portfolio" class="btn btn-outline">View Our Work</a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="number">15+</span>
+                        <span class="label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">500+</span>
+                        <span class="label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">200+</span>
+                        <span class="label">Clients</span>
+                    </div>
                 </div>
             </div>
-            <div class="hero-image">
-                <img src="images/hero-image.png" alt="Digital solutions illustration">
-            </div>
         </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats">
-        <div class="container">
-            <div class="stat-item">
-                <h3>15+</h3>
-                <p>Years in Business</p>
-            </div>
-            <div class="stat-item">
-                <h3>500+</h3>
-                <p>Projects Completed</p>
-            </div>
-            <div class="stat-item">
-                <h3>200+</h3>
-                <p>Happy Clients</p>
-            </div>
-            <div class="stat-item">
-                <h3>30+</h3>
-                <p>Awards Won</p>
-            </div>
-        </div>
+        <div class="hero-overlay"></div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <p class="section-subtitle">Comprehensive digital solutions tailored to your business needs</p>
-            
+            <div class="section-header">
+                <span class="section-subtitle">What We Offer</span>
+                <h2 class="section-title">Our Premium Services</h2>
+                <p class="section-description">Comprehensive digital solutions tailored to your business needs</p>
+            </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
+                    <div class="service-img">
+                        <img src="images/service-web.jpg" alt="Web Development">
                     </div>
-                    <h3>Web Development</h3>
-                    <p>Custom websites, e-commerce solutions, and web applications built with the latest technologies.</p>
+                    <div class="service-content">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Custom websites, e-commerce solutions, and web applications built with cutting-edge technologies.</p>
+                        <ul class="service-features">
+                            <li>Responsive Design</li>
+                            <li>CMS Development</li>
+                            <li>API Integration</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                        <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
                 
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                    <div class="service-img">
+                        <img src="images/service-mobile.jpg" alt="Mobile Development">
                     </div>
-                    <h3>Mobile App Development</h3>
-                    <p>iOS and Android applications designed for performance and user engagement.</p>
+                    <div class="service-content">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile App Development</h3>
+                        <p>iOS and Android applications designed for performance and user engagement.</p>
+                        <ul class="service-features">
+                            <li>Native & Hybrid Apps</li>
+                            <li>UI/UX Design</li>
+                            <li>App Store Optimization</li>
+                            <li>Maintenance & Support</li>
+                        </ul>
+                        <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
                 
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-search-dollar"></i>
+                    <div class="service-img">
+                        <img src="images/service-marketing.jpg" alt="Digital Marketing">
                     </div>
-                    <h3>SEO Services</h3>
-                    <p>Improve your search rankings and drive organic traffic to your website.</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-ad"></i>
+                    <div class="service-content">
+                        <div class="icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Digital Marketing</h3>
+                        <p>Data-driven strategies to increase your online visibility and conversions.</p>
+                        <ul class="service-features">
+                            <li>SEO & Content Marketing</li>
+                            <li>Social Media Management</li>
+                            <li>PPC Advertising</li>
+                            <li>Analytics & Reporting</li>
+                        </ul>
+                        <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Comprehensive digital marketing strategies including PPC, social media, and content marketing.</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-paint-brush"></i>
-                    </div>
-                    <h3>UI/UX Design</h3>
-                    <p>Beautiful, intuitive interfaces that enhance user experience and drive conversions.</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <h3>Hosting & Maintenance</h3>
-                    <p>Reliable hosting solutions and ongoing maintenance to keep your site running smoothly.</p>
                 </div>
             </div>
         </div>
@@ -131,68 +138,54 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <h2 class="section-title">Our Portfolio</h2>
-            <p class="section-subtitle">A glimpse of our successful projects</p>
-            
-            <div class="portfolio-filter">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Development</button>
-                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
-                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            <div class="section-header">
+                <span class="section-subtitle">Our Showcase</span>
+                <h2 class="section-title">Recent Projects</h2>
+                <p class="section-description">Explore our successful digital transformations</p>
             </div>
             
             <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="web">
-                    <img src="images/portfolio1.jpg" alt="Project 1">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="E-commerce Platform">
                     <div class="portfolio-overlay">
-                        <h3>Corporate Website</h3>
-                        <p>Modern responsive design for a financial services company</p>
-                        <a href="#" class="portfolio-link">View Project</a>
+                        <div class="overlay-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>Complete online store with custom CMS</p>
+                            <a href="#" class="view-btn">View Case Study</a>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="portfolio-item" data-category="ecommerce">
-                    <img src="images/portfolio2.jpg" alt="Project 2">
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="Corporate Website">
                     <div class="portfolio-overlay">
-                        <h3>Online Fashion Store</h3>
-                        <p>E-commerce platform with custom CMS</p>
-                        <a href="#" class="portfolio-link">View Project</a>
+                        <div class="overlay-content">
+                            <h3>Corporate Website</h3>
+                            <p>Modern design with interactive elements</p>
+                            <a href="#" class="view-btn">View Case Study</a>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="portfolio-item" data-category="mobile">
-                    <img src="images/portfolio3.jpg" alt="Project 3">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/600x400" alt="Mobile Application">
                     <div class="portfolio-overlay">
-                        <h3>Fitness Tracking App</h3>
-                        <p>iOS and Android app with health integration</p>
-                        <a href="#" class="portfolio-link">View Project</a>
+                        <div class="overlay-content">
+                            <h3>Mobile Application</h3>
+                            <p>Fitness tracking iOS/Android app</p>
+                            <a href="#" class="view-btn">View Case Study</a>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="portfolio-item" data-category="web">
-                    <img src="images/portfolio4.jpg" alt="Project 4">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/600x400" alt="Marketing Campaign">
                     <div class="portfolio-overlay">
-                        <h3>Educational Portal</h3>
-                        <p>Learning management system for schools</p>
-                        <a href="#" class="portfolio-link">View Project</a>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="ecommerce">
-                    <img src="images/portfolio5.jpg" alt="Project 5">
-                    <div class="portfolio-overlay">
-                        <h3>Grocery Delivery Platform</h3>
-                        <p>Complete online ordering system</p>
-                        <a href="#" class="portfolio-link">View Project</a>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="mobile">
-                    <img src="images/portfolio6.jpg" alt="Project 6">
-                    <div class="portfolio-overlay">
-                        <h3>Travel Planning App</h3>
-                        <p>Itinerary builder with AI recommendations</p>
-                        <a href="#" class="portfolio-link">View Project</a>
+                        <div class="overlay-content">
+                            <h3>Marketing Campaign</h3>
+                            <p>360° digital marketing strategy</p>
+                            <a href="#" class="view-btn">View Case Study</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,89 +200,97 @@
     <section id="about" class="about">
         <div class="container">
             <div class="about-content">
+                <span class="section-subtitle">Our Story</span>
                 <h2 class="section-title">15 Years of Digital Excellence</h2>
-                <p>Founded in 2009, Global Web Solutions has been at the forefront of digital innovation, helping businesses establish and grow their online presence.</p>
+                <p>Founded in 2009, Global Web Solutions has been at the forefront of digital innovation, helping businesses establish and grow their online presence across multiple industries.</p>
                 
-                <div class="about-points">
-                    <div class="about-point">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h3>Proven Expertise</h3>
-                            <p>Over a decade and a half of delivering successful digital projects across industries.</p>
-                        </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-medal"></i>
+                        <h3>Proven Expertise</h3>
+                        <p>Decade and a half of delivering successful digital projects.</p>
                     </div>
                     
-                    <div class="about-point">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h3>Client-Centric Approach</h3>
-                            <p>We prioritize your business goals and tailor solutions to meet your specific needs.</p>
-                        </div>
+                    <div class="feature">
+                        <i class="fas fa-users"></i>
+                        <h3>Client-Centric</h3>
+                        <p>We prioritize your business goals and tailor solutions accordingly.</p>
                     </div>
                     
-                    <div class="about-point">
-                        <i class="fas fa-check-circle"></i>
-                        <div>
-                            <h3>Innovative Solutions</h3>
-                            <p>Staying ahead of technology trends to give you a competitive edge.</p>
-                        </div>
+                    <div class="feature">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Innovative</h3>
+                        <p>Staying ahead of technology trends for your competitive edge.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <i class="fas fa-headset"></i>
+                        <h3>Support</h3>
+                        <p>Dedicated support team for all your post-launch needs.</p>
                     </div>
                 </div>
                 
-                <a href="#" class="btn btn-primary">Learn More About Us</a>
+                <a href="#" class="btn btn-outline">Learn More About Us</a>
             </div>
             
             <div class="about-image">
-                <img src="images/about-team.jpg" alt="Global Web Solutions team">
+                <div class="experience-badge">
+                    <span>15+</span>
+                    <small>Years Experience</small>
+                </div>
+                <img src="https://via.placeholder.com/500x600" alt="Our Team">
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
+    <!-- Testimonials -->
     <section class="testimonials">
         <div class="container">
-            <h2 class="section-title">What Our Clients Say</h2>
-            <p class="section-subtitle">Trusted by businesses across industries</p>
+            <div class="section-header">
+                <span class="section-subtitle">Client Voices</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
             
             <div class="testimonial-slider">
-                <div class="testimonial-slide active">
+                <div class="testimonial active">
                     <div class="testimonial-content">
-                        <p>"Global Web Solutions transformed our online presence. Their team delivered a website that not only looks great but has significantly increased our lead generation."</p>
-                        <div class="testimonial-author">
-                            <h4>Rajesh Mehta</h4>
-                            <p>CEO, TechSolutions India</p>
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Global Web Solutions transformed our online presence completely. Their team delivered beyond our expectations with a website that significantly increased our lead generation."</p>
+                        <div class="client-info">
+                            <img src="https://via.placeholder.com/80" alt="Client">
+                            <div>
+                                <h4>Rajesh Mehta</h4>
+                                <span>CEO, TechSolutions India</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="testimonial-slide">
+                <div class="testimonial">
                     <div class="testimonial-content">
-                        <p>"The digital marketing campaign created by Global Web Solutions exceeded our expectations. Our sales increased by 150% within just three months!"</p>
-                        <div class="testimonial-author">
-                            <h4>Priya Sharma</h4>
-                            <p>Marketing Director, FashionHub</p>
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The digital marketing campaign created by Global Web Solutions exceeded our targets. Our sales increased by 150% within just three months of implementation!"</p>
+                        <div class="client-info">
+                            <img src="https://via.placeholder.com/80" alt="Client">
+                            <div>
+                                <h4>Priya Sharma</h4>
+                                <span>Marketing Director, FashionHub</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="testimonial-slide">
-                    <div class="testimonial-content">
-                        <p>"Their mobile app development team is exceptional. They understood our requirements perfectly and delivered ahead of schedule."</p>
-                        <div class="testimonial-author">
-                            <h4>Vikram Patel</h4>
-                            <p>Founder, HealthTrack</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-nav">
-                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
-                    <div class="testimonial-dots">
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="dots">
                         <span class="dot active"></span>
                         <span class="dot"></span>
-                        <span class="dot"></span>
                     </div>
-                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
         </div>
@@ -298,12 +299,15 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="contact-info">
-                <h2 class="section-title">Get In Touch</h2>
-                <p>Ready to start your project or have questions? Reach out to us!</p>
+            <div class="contact-content">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Ready to Start Your Project?</h2>
+                    <p class="section-description">We'd love to hear about your digital needs and how we can help.</p>
+                </div>
                 
-                <div class="contact-details">
-                    <div class="contact-item">
+                <div class="contact-info">
+                    <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3>Our Office</h3>
@@ -311,7 +315,7 @@
                         </div>
                     </div>
                     
-                    <div class="contact-item">
+                    <div class="info-item">
                         <i class="fas fa-phone-alt"></i>
                         <div>
                             <h3>Call Us</h3>
@@ -320,21 +324,12 @@
                         </div>
                     </div>
                     
-                    <div class="contact-item">
+                    <div class="info-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h3>Email Us</h3>
                             <p>info@globalwebsolutions.in</p>
                             <p>support@globalwebsolutions.in</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h3>Working Hours</h3>
-                            <p>Monday - Friday: 9:00 - 18:00</p>
-                            <p>Saturday: 10:00 - 15:00</p>
                         </div>
                     </div>
                 </div>
@@ -350,31 +345,30 @@
             <div class="contact-form">
                 <form id="contactForm">
                     <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="text" placeholder="Your Name" required>
                     </div>
                     
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <input type="email" placeholder="Your Email" required>
                     </div>
                     
                     <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        <input type="tel" placeholder="Phone Number">
                     </div>
                     
                     <div class="form-group">
-                        <select id="service" name="service">
-                            <option value="">Select a Service</option>
-                            <option value="web-development">Web Development</option>
-                            <option value="mobile-app">Mobile App Development</option>
-                            <option value="seo">SEO Services</option>
-                            <option value="digital-marketing">Digital Marketing</option>
-                            <option value="ui-ux">UI/UX Design</option>
-                            <option value="other">Other</option>
+                        <select required>
+                            <option value="">Select Service</option>
+                            <option>Web Development</option>
+                            <option>Mobile App Development</option>
+                            <option>Digital Marketing</option>
+                            <option>UI/UX Design</option>
+                            <option>Other</option>
                         </select>
                     </div>
                     
                     <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
                     </div>
                     
                     <button type="submit" class="btn btn-primary">Send Message</button>
@@ -388,11 +382,9 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>Global Web Solutions</h3>
-                    <p>Your trusted partner for web development and digital marketing solutions since 2009.</p>
                     <div class="footer-logo">
-                        <a href="index.html">Global Web Solutions</a>
-                        <span class="tagline">15 Years of Digital Excellence</span>
+                        <img src="images/logo.png" alt="Global Web Solutions">
+                        <p>Your trusted partner for web development and digital marketing solutions since 2009.</p>
                     </div>
                 </div>
                 
@@ -411,16 +403,16 @@
                     <h3>Services</h3>
                     <ul>
                         <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Mobile App Development</a></li>
-                        <li><a href="#">SEO Services</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
                         <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">SEO Services</a></li>
                         <li><a href="#">UI/UX Design</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
                     <h3>Newsletter</h3>
-                    <p>Subscribe to our newsletter for the latest updates and insights.</p>
+                    <p>Subscribe for digital insights and updates.</p>
                     <form class="newsletter-form">
                         <input type="email" placeholder="Your Email" required>
                         <button type="submit"><i class="fas fa-paper-plane"></i></button>
@@ -430,7 +422,7 @@
             
             <div class="footer-bottom">
                 <p>&copy; 2024 Global Web Solutions. All Rights Reserved.</p>
-                <div class="footer-links">
+                <div class="legal-links">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>
                 </div>
